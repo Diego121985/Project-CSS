@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+
+}
+
+body {
+    position: fixed;
+}
+
+a {
+    padding-left: 30px;
+    text-decoration: none;
+    color: gray;
+    font-weight: 700;
+
+}
+
+.login {
+    margin-left: 30px;
+    color: #ffff;
+    background-color: rgba(102, 90, 225, 1);
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.principal {
+    display: flex;
+    height: 100vh;
+    padding: 200px;
+
+}
+
+.lado-esquerdo {
+    margin-left: 100px;
+    margin-top: 60px;
+    width: 45%;
+    height: 45vh;
+    display: inline-block;
+
+
+
+}
+
+h1 {
+    font-size: 60px;
+    color: rgba(81, 81, 81, 1);
+    padding-bottom: 30px;
+    font-weight: 900;
+
+
+}
+
+h2 {
+    color: rgba(81, 81, 81, 1);
+    font-size: 40px;
+    font-weight: 100;
+    margin-top: -30px;
+    margin-left: 15px;
+
+}
+
+p {
+    color: rgba(132, 132, 132, 1);
+    line-height: 15px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+button {
+    background: rgba(173, 255, 0, 1);
+    color: rgba(0, 0, 0, 1);
+    font-weight: 700;
+    border-radius: 15px;
+    margin-top: 20px;
+    width: 120px;
+    height: 39px;
+    cursor: pointer;
+    border: none;
+
+    filter: drop-shadow(black);
+
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    header{
+        margin-top: 20px;
+        
+    }
+    a{
+        font-size: 10px;
+        padding-top: 220px;
+    }
+    .login {
+       margin-left: 150px;
+       margin-top: 30px;
+      
+       }
+   .principal{
+   padding-left: 15px;
+    width: 100vw;
+    height: 100vh;
+  padding-top: 50px;
+
+   }
+
+ .lado-esquerdo{
+ 
+  margin-top: 350px;
+  margin-left:-370px;
+  margin-right: 700px;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 70px;
+  text-align: center;
+ }
+ h1{
+    margin-right: 400px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 100px;
+    width: 200px;
+    margin-bottom: 30px;
+    
+  
+ }
+ h2{
+    font-size: 20px;
+ }
+ p{
+    font-size: 16px;
+ }
+}
