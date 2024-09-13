@@ -119,11 +119,10 @@ p {
 
 
 
-@media screen and (max-width: 600px) and (orientation: landscape){
-   
+@media screen and (max-width: 600px){
 
     a {
-        font-size: 10px;
+        font-size: 2px;
         padding-top: 220px;
         font-weight: 900;
     }
