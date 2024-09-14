@@ -182,13 +182,17 @@ header{
 }
 @media (max-width: 844px) {
   .login  {
-        margin-top: 30px;
+        margin-top: 20px;
         margin-left: 50px;
         margin-top: 30px;
         margin-right: 250px;
         width: 100px;
         height: 20px;
 
+    }
+    body{
+        width: 844px;
+        height: 390px;
     }
     .principal{
         margin-top: 0;
